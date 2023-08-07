@@ -1,0 +1,19 @@
+Préréquis
+    Version de PHP > 8.2
+    Version Composer = 2.5.8
+
+Clonage du projet :
+    -   git clone https://github.com/kodak10/Freelance_Website.git
+    -   composer install
+    -   cp .env.example .env
+        Nom de la base : Freelance
+    -   php artisan key:generate
+    -   composer dump-autoload
+    -   Php artisan migrate
+
+Dossier Bases pour les bases de données
+
+Chacun peut créer autant de branche qu'il veux
+Interdiction de faire un push sur la branche main
+
+
